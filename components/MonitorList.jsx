@@ -66,7 +66,7 @@ function MonitorCard({ monitor, onChanged }) {
           href={monitor.concert_url} target="_blank" rel="noopener noreferrer"
           className="flex-1 bg-white/[0.04] hover:bg-white/[0.08] border border-white/[0.08] rounded-xl py-1.5 text-xs text-white/50 hover:text-white/80 transition-all text-center"
         >
-          공연 페이지 →
+          공연 페이지 &rarr;
         </a>
         <button
           onClick={remove} disabled={busy}
